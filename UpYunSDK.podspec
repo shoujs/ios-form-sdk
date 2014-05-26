@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'NSData+MD5Digest'
   s.dependency 'Base64'
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking', '~> 1.3.0'
   
 end
